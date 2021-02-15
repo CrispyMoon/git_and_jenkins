@@ -12,7 +12,7 @@ $res = $con->query($tbl);
 
 $counts = mysqli_num_rows($$res);
 
-echo "Pada database Trucorp, terdapat " . $counts . " user(s)"
+echo "Pada database Trucorp, terdapat " . $counts . " user(s)";
 
 mysqli_close($con);
 
